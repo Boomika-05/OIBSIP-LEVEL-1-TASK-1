@@ -1,0 +1,94 @@
+/* Font Stack */
+body {
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #f1945988; 
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #bf0c0c; 
+    transition: color 0.3s ease; 
+}
+
+nav a:hover {
+    color: #E6E6FA; 
+    text-decoration: underline; 
+}
+
+/* Banner styles */
+.banner {
+    position: relative;
+    background-image: url('baby_home.png');
+    background-size: cover; 
+    height: 600px;
+    color: #fff; 
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 2em;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner .text-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(213, 167, 201, 0.7); 
+    padding: 10px;
+}
+
+/* Product styles */
+.product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    gap: 20px;
+}
+
+.product-item {
+    width: calc(25% - 20px); 
+    margin-bottom: 20px; 
+    padding: 20px;
+    background-color: #d4b4cb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item:hover {
+    box-shadow: 0 0 10px rgba(111, 7, 7, 0.881); 
+}
+
+.product-item img {
+   max-width: 100%;
+   height: auto;
+    border-radius: 8px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #080101; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
